@@ -17,7 +17,7 @@ jobs:
       # 2. Build Docker image
       - name: Build Docker image
         run: |
-          docker build -t star1:latest .
+          docker build -t star1 .
 
 
       # 3. Login to Docker Hub
