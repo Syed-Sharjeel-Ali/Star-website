@@ -34,7 +34,7 @@ jobs:
           
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/star1:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/test_repo
 
       # 5. Deploy to AWS EC2 via SSH
       - name: Deploy on EC2
